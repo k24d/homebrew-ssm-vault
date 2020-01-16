@@ -1,5 +1,5 @@
 class SsmVault < Formula
-  desc "Secret management with Amazon SSM Parameter Store"
+  desc "Secret management with AWS SSM Parameter Store"
   homepage "https://github.com/k24d/ssm-vault"
   url "https://github.com/k24d/ssm-vault/archive/v1.0.0.tar.gz"
   sha256 "9d21606244254b146cc104456e1acad7cef759472938b3c2af1e01fb5eca8033"
