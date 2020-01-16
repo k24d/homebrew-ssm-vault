@@ -6,10 +6,9 @@ class SsmVault < Formula
   head "https://github.com/k24d/ssm-vault.git", :branch => "master"
 
   bottle do
-    root_url "https://dl.bintray.com/k24d/ssm-vault"
+    root_url "https://dl.bintray.com/k24d/bottles-ssm-vault"
     cellar :any_skip_relocation
     rebuild 1
-    sha256 "11c93c775dbf2c0c33398dd828bc88493c155d8cfa612cbf4a9b097daec2c369" => :catalina
     sha256 "00f5de30cd6f3f3524e836b97685ed9a634d6f2b69d117177f47b2d174a02f62" => :high_sierra
   end
 
