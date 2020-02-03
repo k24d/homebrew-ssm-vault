@@ -8,8 +8,7 @@ class SsmVault < Formula
   bottle do
     root_url "https://dl.bintray.com/k24d/bottles-ssm-vault"
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "00f5de30cd6f3f3524e836b97685ed9a634d6f2b69d117177f47b2d174a02f62" => :high_sierra
+    sha256 "394d89b98e3239aaa40d1bcad97ab137d3e1e52a65602a3c2eb2bc7d33060f04" => :catalina
   end
 
   depends_on "go" => :build
